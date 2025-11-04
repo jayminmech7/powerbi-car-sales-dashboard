@@ -53,9 +53,6 @@ The objective of this project is to create an analytical dashboard that provides
 
 ## 📁 Repository Structure
 
-
-## 📁 Repository Structure
-
 ```bash
 powerbi-car-sales-dashboard/
 │
@@ -74,7 +71,7 @@ powerbi-car-sales-dashboard/
 ├─ LICENSE
 └─ .gitignore
 
-
+```
 ---
 
 ## 📥 How to Use
@@ -85,4 +82,3 @@ powerbi-car-sales-dashboard/
 4. Click **Refresh** to load visuals with the dataset.  
 5. Explore KPIs, filters, and drill-through options interactively.
 
----

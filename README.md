@@ -82,3 +82,15 @@ powerbi-car-sales-dashboard/
 4. Click **Refresh** to load visuals with the dataset.  
 5. Explore KPIs, filters, and drill-through options interactively.
 
+---
+
+## 👤 Author
+
+**Jaymin Patel**  
+🎓 Master of Science in Business Analytics, Montclair State University (GPA: 4.0/4.0)  
+💼 3+ years of experience in Sales & Business Intelligence  
+🧰 Skills: Tableau, Power BI, SQL, Excel, Python, APIs, Automation, CRM Systems  
+📬 Email: [Jaymin.mech7@gmail.com](mailto:Jaymin.mech7@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jaymin7/) | [GitHub](https://github.com/jayminmech7) | [Portfolio](https://jayminmech7.github.io)
+
+---

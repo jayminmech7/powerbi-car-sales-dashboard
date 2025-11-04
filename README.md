@@ -1,4 +1,5 @@
 # 🚗 Car Sales Dashboard (Power BI)
+**Interactive Power BI Sales Analytics Dashboard for business insights & KPI tracking**
 
 An interactive **Power BI Dashboard** designed to analyze and visualize car sales performance across multiple dimensions — region, body style, color, and company.  
 This project delivers deep insights into business KPIs and helps management track performance efficiently.
@@ -9,20 +10,18 @@ This project delivers deep insights into business KPIs and helps management trac
 
 ## 🍀 Problem Statement
 
-The objective of this project is to create an analytical dashboard that provides actionable insights into **car sales trends and performance**.
+### 🎯 Objective
+To create an analytical dashboard that provides actionable insights into **car sales trends and performance**, enabling leadership to make informed, data-driven decisions.
 
----
-
-### 🎯 Key Goals
-
+### 📈 Scope
 - Compare **YTD, MTD, YOY, and PTYD** for:
   - Total Sales  
   - Average Price  
   - Cars Sold  
-- Show **weekly and monthly sales trends**.  
-- Provide visual analysis by **Body Style** and **Color**.  
-- Display sales by **Dealer Region** on an interactive map.  
-- Include a **Details page** with drill-through capabilities for each sale record.
+- Show **weekly and monthly sales trends**  
+- Visualize by **Body Style** and **Color**  
+- Display sales by **Dealer Region** on an interactive map  
+- Include a **Details Page** with drill-through capabilities for individual sales
 
 📄 **Full Problem Description:**  
 [📘 View Problem_Statement.pdf](docs/Problem_Statement.pdf)
@@ -33,8 +32,8 @@ The objective of this project is to create an analytical dashboard that provides
 
 | Page | Description |
 |------|--------------|
-| **Overview Page** | KPIs, sales trends, visuals by body style & color, dealer region map, and company sales breakdown. |
-| **Details Page** | Interactive data table with filtering and sorting options (Car ID, Date, Dealer, Company, Model, Color, Sales). |
+| **Overview Page** | KPIs, trend charts, visuals by body style & color, dealer region map, and company sales breakdown |
+| **Details Page** | Interactive table for all transactions with filters by Date, Dealer, Company, Model, and Color |
 
 ![Details](assets/details.png)
 
@@ -44,10 +43,10 @@ The objective of this project is to create an analytical dashboard that provides
 
 | Tool | Purpose |
 |------|----------|
-| **Power BI Desktop** | Dashboard creation and DAX calculations |
-| **Microsoft Excel / CSV** | Data source |
-| **Power Query Editor** | Data transformation and cleaning |
-| **DAX** | Calculated measures for KPIs |
+| 🟡 **Power BI Desktop** | Dashboard creation & DAX calculations |
+| 🧾 **Microsoft Excel / CSV** | Data source (sanitized) |
+| 🔧 **Power Query Editor** | Data transformation & cleaning |
+| 🧮 **DAX** | Calculated measures for KPIs |
 
 ---
 
@@ -70,27 +69,46 @@ powerbi-car-sales-dashboard/
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
-
 ```
+
 ---
 
 ## 📥 How to Use
 
-1. **Clone or download** this repository.  
-2. Open `Car-Sales-Dashboard.pbix` in **Power BI Desktop**.  
-3. When prompted, update the file path to the local `data/` folder.  
-4. Click **Refresh** to load visuals with the dataset.  
-5. Explore KPIs, filters, and drill-through options interactively.
+1. **Clone or download** this repository  
+2. Open `Car-Sales-Dashboard.pbix` in **Power BI Desktop**  
+3. If prompted, update the file path to your local `data/` folder  
+4. Click **Refresh** to load visuals  
+5. Explore KPIs, filters, and drill-throughs interactively  
+
+---
+
+## 📈 Key Insights
+
+- 🚘 Identified **top-selling car models** and **most preferred colors**  
+- 🗓️ Discovered **seasonal sales peaks** during summer months  
+- 🌎 Found **regional dealer performance** patterns  
+- 💡 Enabled **data-driven decision making** through KPI monitoring  
 
 ---
 
 ## 👤 Author
 
 **Jaymin Patel**  
-🎓 Master of Science in Business Analytics, Montclair State University (GPA: 4.0/4.0)  
-💼 3+ years of experience in Sales & Business Intelligence  
-🧰 Skills: Tableau, Power BI, SQL, Excel, Python, APIs, Automation, CRM Systems  
-📬 Email: [Jaymin.mech7@gmail.com](mailto:Jaymin.mech7@gmail.com)  
-🔗 [LinkedIn](https://www.linkedin.com/in/jaymin7/) | [GitHub](https://github.com/jayminmech7) | [Portfolio](https://jayminmech7.github.io)
+🎓 *M.S. in Business Analytics – Montclair State University (GPA 4.0)*  
+💼 *3 + years experience in Sales & Business Intelligence*  
+🧰 *Skills:* Power BI • Tableau • SQL • Excel • Python • APIs • Automation • CRM Systems  
+
+📫 **Email:** [jaymin.mech7@gmail.com](mailto:jaymin.mech7@gmail.com)  
+🔗 [LinkedIn](https://www.linkedin.com/in/jaymin7/) • [GitHub](https://github.com/jayminmech7) • [Portfolio](https://jayminmech7.github.io)
 
 ---
+
+## 📝 License
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full details.
+
+---
+
+⭐ *If you found this project helpful, please give it a star on GitHub!*

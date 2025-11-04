@@ -54,22 +54,26 @@ The objective of this project is to create an analytical dashboard that provides
 ## 📁 Repository Structure
 
 
+## 📁 Repository Structure
+
+```bash
 powerbi-car-sales-dashboard/
 │
 ├─ data/
-│ └─ car_sales_data.xlsx
+│   └─ car_sales_data.xlsx
 │
 ├─ assets/
-│ ├─ overview.png
-│ └─ details.png
+│   ├─ overview.png
+│   └─ details.png
 │
 ├─ docs/
-│ └─ Problem_Statement.pdf
+│   └─ Problem_Statement.pdf
 │
 ├─ Car-Sales-Dashboard.pbix
 ├─ README.md
 ├─ LICENSE
 └─ .gitignore
+
 
 ---
 

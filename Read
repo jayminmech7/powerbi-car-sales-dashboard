@@ -1,0 +1,76 @@
+# 🚗 Car Sales Dashboard (Power BI)
+
+An interactive **Power BI Dashboard** designed to analyze and visualize car sales performance across multiple dimensions — region, body style, color, and company.  
+This project delivers deep insights into business KPIs and helps management track performance efficiently.
+
+![Overview](assets/overview.png)
+
+---
+
+## 🧩 Problem Statement
+
+The objective of this project is to create an analytical dashboard that provides actionable insights into **car sales trends and performance**.
+
+### 🎯 **Key Goals**
+- Compare **YTD, MTD, YOY, and PTYD** for:
+  - Total Sales  
+  - Average Price  
+  - Cars Sold  
+- Show weekly and monthly sales trends.  
+- Provide visual analysis by **Body Style** and **Color**.  
+- Display sales by **Dealer Region** on an interactive map.  
+- Include a **Details page** with drill-through capabilities for each sale record.
+
+📄 **Full Problem Description:**  
+[📘 View Problem_Statement.pdf](docs/Problem Statement.pdf)
+
+---
+
+## 📊 Dashboard Pages
+
+| Page | Description |
+|------|--------------|
+| **Overview Page** | Contains KPIs, trend charts, body style & color visuals, regional sales map, and company summary table. |
+| **Details Page** | Interactive data table showing all sales with filtering by date, dealer, company, color, and model. |
+
+![Details](assets/details.png)
+
+---
+
+## ⚙️ Tools & Technologies
+
+| Tool | Purpose |
+|------|----------|
+| **Power BI Desktop** | Dashboard development and data modeling |
+| **Microsoft Excel / CSV** | Data source (sanitized) |
+| **Power Query Editor** | Data cleaning and transformation |
+| **DAX** | Calculated measures (YTD, MTD, YOY, etc.) |
+
+---
+
+## 📁 Repository Structure
+
+powerbi-car-sales-dashboard/
+│
+├─ data/
+│ └─ car_sales_data.xlsx
+│
+├─ assets/
+│ ├─ overview.png
+│ └─ details.png
+│
+├─ docs/
+│ └─ Problem_Statement.pdf
+│
+├─ Car-Sales-Dashboard.pbix
+├─ README.md
+├─ LICENSE
+└─ .gitignore
+
+## 📥 How to Use
+
+1. **Clone or download** this repository.  
+2. Open `Car-Sales-Dashboard.pbix` in **Power BI Desktop**.  
+3. When prompted, update the file path to the local `data/` folder.  
+4. Click **Refresh** to load visuals with the dataset.  
+5. Explore KPIs, filters, and drill-through options interactively.

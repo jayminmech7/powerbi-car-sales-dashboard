@@ -25,7 +25,7 @@ The objective of this project is to create an analytical dashboard that provides
 - Include a **Details page** with drill-through capabilities for each sale record.
 
 📄 **Full Problem Description:**  
-[📘 View Problem_Statement.pdf](docs/Problem Statement.pdf)
+[📘 View Problem_Statement.pdf](docs/Problem_Statement.pdf)
 
 ---
 
